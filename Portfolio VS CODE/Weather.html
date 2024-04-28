@@ -1,0 +1,161 @@
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Weather Project</title>
+<link rel="stylesheet" href="WeatherApp.css">
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar__container">
+          <a href="/" id="navbar__logo"><i class="fas fa-gem"></i>Claudio Estrada</a>
+          <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span> <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+          <ul class="navbar__menu">
+            <li class="navbar__item">
+              <a href="/aboutme.html" class="navbar__links">About Me</a>
+            </li>
+            <li class="navbar__item">
+              <a href="/Experience.html" class="navbar__links">Experience</a>
+            </li>
+            <li class="navbar__item">
+              <a href="/Project.html" class="navbar__links">Projects</a>
+            </li>
+            <li class="navbar__btn"><a href="CE FRONTEND.pdf"class="button">Resume PDF</a></li>
+          </ul>
+        </div>
+      </nav>
+    <div class="header" id="whthr_logo">
+        <h1>Weather Project</h1>
+        <div>
+            <input type="text" name="" id="input" placeholder="Enter city name">
+            <button id="search" onclick="searchByCity()">Search</button></input>
+        </div>
+    </div>
+
+    <main>        
+        <div class="weather">
+            <h2 id="city">CITY</h2>
+            <div class="temp-box">
+                <img src="/weathericon.png" alt="" id="img">
+                <p id="temperature">TEMP°F</p>
+            </div>
+            <span id="clouds">WEATHER</span>
+        </div>
+        <div class="divider1"></div>
+
+        <div class="forecstH">
+            <p class="cast-header">Upcoming forecast</p>
+            <div class="templist">
+
+                <div class="next">
+                    <div>
+                        <p class="time">TIME</p>
+                        <p>TEMP°F</p>
+                    </div>
+                    <p class="desc">WEATHER</p>
+                </div>
+
+                <div class="next">
+                    <div>
+                        <p class="time">TIME</p>
+                        <p>TEMP°F</p>
+                    </div>
+                    <p class="desc">WEATHER</p>
+                </div>
+
+                <div class="next">
+                    <div>
+                        <p class="time">TIME</p>
+                        <p>TEMP°F</p>
+                    </div>
+                    <p class="desc">WEATHER</p>
+                </div>
+
+                <div class="next">
+                    <div>
+                        <p class="time">TIME</p>
+                        <p>TEMP°F</p>
+                    </div>
+                    <p class="desc">WEATHER</p>
+                </div>
+
+                <div class="next">
+                    <div>
+                        <p class="time">TIME</p>
+                        <p>TEMP°F</p>
+                    </div>
+                    <p class="desc">WEATHER</p>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <div class="forecstD">
+        <p class="cast-header"> Next 4 days forecast</p>
+        <div class="weekF">
+
+            <div class="dayF">
+                <p class="date">DATE</p>
+                <p>TEMP</p>
+                <p class="desc">WEATHER</p>
+            </div>
+
+            <div class="dayF">
+                <p class="date">DATE</p>
+                <p>TEMP</p>
+                <p class="desc">WEATHER</p>
+            </div>
+
+            <div class="dayF">
+                <p class="date">DATE</p>
+                <p>TEMP</p>
+                <p class="desc">WEATHER</p>
+            </div>
+
+            <div class="dayF">
+                <p class="date">DATE</p>
+                <p>TEMP</p>
+                <p class="desc">WEATHER</p>
+            </div>
+        </div>
+    </div>
+    <script src="Weather.js"></script>
+    <script src="app.js"></script>
+
+      <!-- Footer Section -->
+      <div class="footer__container">
+        <div class="footer__links">
+          <div class="footer__link--wrapper">
+            <div class="footer__link--items">
+              <h2>Contact Me</h2>
+              <a href="CE FRONTEND.pdf">Contact</a>
+            </div>
+          </div>
+          <div class="footer__link--wrapper">
+            <div class="footer__link--items">
+              <h2>Social Media</h2>
+              <a href="https://github.com/cestr21?ocid=AIDcmmcwpj1e5v_SEM__k_CjwKCAjw57exBhAsEiwAaIxaZgMGVxCa3A_e_OX_1zfMc2PB2Ds8vYCoH534ZduUBkgqgTyXdOVj7hoCU40QAvD_BwE_k_">GitHub</a>
+            </div>
+          </div>
+        </div>
+        <section class="social__media">
+          <div class="social__media--wrap">
+            <div class="footer__logo">
+              <a href="/" id="footer__logo"><i class="fas fa-gem"></i></a>
+            </div>
+            <p class="website__rights">© Claudio Estrada's Resume.</p>
+            <div class="social__icons">
+              </a>
+            </div>
+          </div>
+        </section>
+      </div>
+      <script src="app.js"></script>
+    </body>
+  </html>
+

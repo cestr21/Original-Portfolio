@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="Styles.css" />
+    <link rel="stylesheet" href="Calculator.css" />
+  </head>
+  <body>
+          <!-- Navbar Section -->
+          <nav class="navbar">
+            <div class="navbar__container">
+              <a href="/" id="navbar__logo"><i class="fas fa-gem"></i>Claudio Estrada</a>
+              <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span> <span class="bar"></span>
+                <span class="bar"></span>
+              </div>
+              <ul class="navbar__menu">
+                <li class="navbar__item">
+                  <a href="/aboutme.html" class="navbar__links">About Me</a>
+                </li>
+                <li class="navbar__item">
+                  <a href="/Experience.html" class="navbar__links">Experience</a>
+                </li>
+                <li class="navbar__item">
+                  <a href="/Project.html" class="navbar__links">Projects</a>
+                </li>
+                <li class="navbar__btn"><a href="CE FRONTEND.pdf"class="button">Resume PDF</a></li>
+              </ul>
+            </div>
+          </nav>
+      
+          <div class="calculator">
+            <div class="display">
+              <input type="text" placeholder="0" id="input" disabled />
+            </div>
+            <div class="buttons">
+              <!-- Full Erase -->
+              <input type="button" value="AC" id="clear" />
+              <!-- Erase Single Value -->
+              <input type="button" value="DEL" id="erase" />
+              <input type="button" value="/" class="input-button" />
+              <input type="button" value="*" class="input-button" />
+      
+              <input type="button" value="7" class="input-button" />
+              <input type="button" value="8" class="input-button" />
+              <input type="button" value="9" class="input-button" />
+              <input type="button" value="-" class="input-button" />
+      
+              <input type="button" value="6" class="input-button" />
+              <input type="button" value="5" class="input-button" />
+              <input type="button" value="4" class="input-button" />
+              <input type="button" value="+" class="input-button" />
+      
+              <input type="button" value="1" class="input-button" />
+              <input type="button" value="2" class="input-button" />
+              <input type="button" value="3" class="input-button" />
+      
+              <input type="button" value="=" id="equal" />
+              <input type="button" value="0" class="input-button" />
+              <input type="button" value="." class="input-button" />
+            </div>
+          </div>
+
+            <!-- Footer Section -->
+      <div class="footer__container">
+        <div class="footer__links">
+          <div class="footer__link--wrapper">
+            <div class="footer__link--items">
+              <h2>Contact Me</h2>
+              <a href="CE FRONTEND.pdf">Contact</a>
+            </div>
+          </div>
+          <div class="footer__link--wrapper">
+            <div class="footer__link--items">
+              <h2>Social Media</h2>
+              <a href="https://github.com/cestr21?ocid=AIDcmmcwpj1e5v_SEM__k_CjwKCAjw57exBhAsEiwAaIxaZgMGVxCa3A_e_OX_1zfMc2PB2Ds8vYCoH534ZduUBkgqgTyXdOVj7hoCU40QAvD_BwE_k_">GitHub</a>
+            
+            </div>
+          </div>
+        </div>
+        <section class="social__media">
+          <div class="social__media--wrap">
+            <div class="footer__logo">
+              <a href="/" id="footer__logo"><i class="fas fa-gem"></i></a>
+            </div>
+            <p class="website__rights">© Claudio Estrada's Resume.</p>
+            <div class="social__icons">
+              </a>
+            </div>
+          </div>
+        </section>
+      </div>
+          <!-- Script -->
+        <script src="Calculator.js"></script>
+        </body>
+      </html>
